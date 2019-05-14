@@ -17,3 +17,7 @@ INSERT INTO studenten (ov_nummer, achternaam, tussenvoegsel, voornaam, geboorted
     (90001, 'lo8e-amo2'),
     (90002, 'lo8e-amo3'),
     (95003, 'lo8e-amo4');
+    
+UPDATE studenten
+SET geboortedatum = "1962-06-27"
+WHERE ov_nummer = 90000;
